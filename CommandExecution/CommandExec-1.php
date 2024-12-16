@@ -12,7 +12,7 @@
       <h1 ="center">Login as Admin</h1>
     <form align="center" action="CommandExec-1.php" method="$_GET">
       <label align="center">
-        <input ="center" type="text" name="username" value="Admin"><br> 
+        <input ="center" type="text" name="username" value="Admin"><br>
         Username:
       </label><br>
       <label>
