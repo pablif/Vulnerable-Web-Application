@@ -9,15 +9,15 @@
       <button type="button" name="homeButton" onclick="location.href='../homepage.html';">Home Page</button>
       <button type="button" name="mainButton" onclick="location.href='commandexec.html';">Main Page</button>
     </div>
-    <div "center" style="background-color:#c9c9c9;padding:20px;">
-      <h1 "center">I think there is a vuln here!</h1>
-    <form "center" action="CommandExec-2.php" method="$_GET">
-      <label "center">Name:</label>
-      <input "center" type="text" name="typeBox" value=""><br>
-      <input "center" type="submit" value="Submit">
+    <div style="background-color:#c9c9c9;padding:20px;">
+      <h1>I think there is a vuln here!</h1>
+    <form action="CommandExec-2.php" method="$_GET">
+      <label>Name:</label>
+      <input type="text" name="typeBox" value=""><br>
+      <input type="submit" value="Submit">
     </form>
   </div>
-  <div style="background-color:#ecf2d0;padding:20px;border-radius:0px 0px 20px 20px";"center">
+  <div style="background-color:#ecf2d0;padding:20px;border-radius:0px 0px 20px 20px">
     <?php
     if(isset($_GET["typeBox"])){
       $target =$_GET["typeBox"];
