@@ -16,7 +16,7 @@
         Username:
       </label><br>
       <label>
-        <input align="center" type="password" name="password" value=""><br>
+        <input ="center" type="password" name="password" value=""><br>
         Password:
       </label><br>
     <input ="center" type="submit" value="Submit">
