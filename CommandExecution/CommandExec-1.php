@@ -11,10 +11,14 @@
     <div style="background-color:#c9c9c9;padding:20px;">
       <h1 align="center">Login as Admin</h1>
     <form align="center" action="CommandExec-1.php" method="$_GET">
-      <label align="center">Username:</label><br>
-      <input align="center" type="text" name="username" value="Admin"><br>
-      <label>Password:</label><br>
+      <label align="center">
+      <input align="center" type="text" name="username" value="Admin"><br> 
+        Username:
+      </label><br>
+      <label>
       <input align="center" type="password" name="password" value=""><br>
+        Password:
+      </label><br>
     <input align="center" type="submit" value="Submit">
 
     </form>
