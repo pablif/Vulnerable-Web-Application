@@ -19,7 +19,7 @@
         <input align="center" type="password" name="password" value=""><br>
         Password:
       </label><br>
-    <input align="center" type="submit" value="Submit">
+    <input ="center" type="submit" value="Submit">
 
     </form>
   </div>
