@@ -46,7 +46,7 @@
 
 		while ($row = mysqli_fetch_assoc($result)) {
 			echo "<hr>";
-		    echo $row['bookname']." ----> ".$row['authorname'];    
+		    echo htmlspecialchars($row['bookname']." ----> ".$row['authorname']);    
 		}
 
 		if(mysqli_num_rows($result) <= 0)
