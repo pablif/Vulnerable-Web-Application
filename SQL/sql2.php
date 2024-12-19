@@ -34,7 +34,7 @@
 	} 
 	//echo "Connected successfully";
 	if(isset($_POST["submit"])){
-		$number = $_POST['number'];
+		$number = mysqli_real_escape_string($conn,$_POST['number']);
 		$query = "SELECT bookname,authorname FROM books WHERE number = $number"; //Int
 		$result = mysqli_query($conn,$query);
 
