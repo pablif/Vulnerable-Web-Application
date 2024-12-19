@@ -9,14 +9,14 @@
       <button type="button" name="mainButton" onclick="location.href='commandexec.html';">Main Page</button>
     </div>
     <div style="background-color:#c9c9c9;padding:20px;">
-      <h1 align="center">Browse The Files!</h1>
+      <h1>Browse The Files!</h1>
     <form align="center" action="CommandExec-4.php" method="$_GET">
       What's it:
       <input type="text" name="typeBox" value=""><br>
       <input type="submit" value="Submit">
     </form>
   </div>
-  <div style="background-color:#ecf2d0;padding:20px;border-radius:0px 0px 20px 20px" align="center">
+  <div style="background-color:#ecf2d0;padding:20px;border-radius:0px 0px 20px 20px">
     <?php
     if(!file_exists(".hidden")){
       mkdir(".hidden");
